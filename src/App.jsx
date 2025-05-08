@@ -1,7 +1,11 @@
+import Header from "./Header"
 
 function App() {
   return (
-    <button></button>
+    <>
+      <Header />
+      <button>Click me</button>
+    </>
   )
 }
 
