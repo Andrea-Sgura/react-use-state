@@ -42,7 +42,12 @@ const Main = () => {
                     <button key={language.id}>{language.title}</button>
                 ))}
             </div>
-            <div className="description">Description</div>
+            <div className="card">
+                <div className="card-body">
+                    <h5 className="card-title">Titolo</h5>
+                    <p className="card-text">Descrizione</p>
+                </div>
+            </div>
         </div>
     )
 }
