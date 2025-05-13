@@ -42,7 +42,7 @@ const Main = () => {
         <div className="container">
             <div className="buttons">
                 {languages.map((language) => (
-                    <button className="btn-style" key={language.id}>{language.title}</button>
+                    <button onClick={() => setActiveLanguage(language)} className="btn-style" key={language.id}>{language.title}</button>
                 ))}
             </div>
             <div className="card">
